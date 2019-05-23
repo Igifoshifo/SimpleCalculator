@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="style" href="" type="text/css">
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <table border="1">
+            <tr>
+                <td colspan="3"> <input type="text" id="display"/> </td>
+                <td> <input type="button" value="C" onclick="resetOutput()"/> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="1" onclick="store('1')"/> </td>
+                <td> <input type="button" value="2" onclick="store('2')"/> </td>
+                <td> <input type="button" value="3" onclick="store('3')"/> </td>
+                <td> <input type="button" value="/" onclick="store('/')"/> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="4" onclick="store('4')"/> </td>
+                <td> <input type="button" value="5" onclick="store('5')"/> </td>
+                <td> <input type="button" value="6" onclick="store('6')"/> </td>
+                <td> <input type="button" value="-" onclick="store('-')"/> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="7" onclick="store('7')"/> </td>
+                <td> <input type="button" value="8" onclick="store('8')"/> </td>
+                <td> <input type="button" value="9" onclick="store('9')"/> </td>
+                <td> <input type="button" value="+" onclick="store('+')"/> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="." onclick="store('.')"/> </td>
+                <td> <input type="button" value="0" onclick="store('0')"/> </td>
+                <td> <input type="button" value="=" onclick="answer()"/> </td>
+                <td> <input type="button" value="*" onclick="store('*')"/> </td>
+            </tr>
+        </table>
+        
+        <footer>
+
+        </footer>
+    </body>
+
+    <script src="/js/script.js"></script>
+</html>
