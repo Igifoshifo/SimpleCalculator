@@ -9,42 +9,42 @@
         <title>Simple Calculator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="style" href="" type="text/css">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
     </head>
 
-    <body>
+    <body background="images/techbackground.png">
         <header>
 
         </header>
 
-        <table border="1">
+        <table>
             <tr>
                 <td colspan="3"> <input type="text" id="display"/> </td>
-                <td> <input type="button" value="C" onclick="resetOutput()"/> </td>
+                <td> <input type="button" class="button" value="C" onclick="resetOutput()"/> </td>
             </tr>
             <tr>
-                <td> <input type="button" value="1" onclick="store('1')"/> </td>
-                <td> <input type="button" value="2" onclick="store('2')"/> </td>
-                <td> <input type="button" value="3" onclick="store('3')"/> </td>
-                <td> <input type="button" value="/" onclick="store('/')"/> </td>
+                <td> <input type="button" class="button" value="1" onclick="store('1')"/> </td>
+                <td> <input type="button" class="button" value="2" onclick="store('2')"/> </td>
+                <td> <input type="button" class="button" value="3" onclick="store('3')"/> </td>
+                <td> <input type="button" class="button" value="/" onclick="store('/')"/> </td>
             </tr>
             <tr>
-                <td> <input type="button" value="4" onclick="store('4')"/> </td>
-                <td> <input type="button" value="5" onclick="store('5')"/> </td>
-                <td> <input type="button" value="6" onclick="store('6')"/> </td>
-                <td> <input type="button" value="-" onclick="store('-')"/> </td>
+                <td> <input type="button" class="button" value="4" onclick="store('4')"/> </td>
+                <td> <input type="button" class="button" value="5" onclick="store('5')"/> </td>
+                <td> <input type="button" class="button" value="6" onclick="store('6')"/> </td>
+                <td> <input type="button" class="button" value="-" onclick="store('-')"/> </td>
             </tr>
             <tr>
-                <td> <input type="button" value="7" onclick="store('7')"/> </td>
-                <td> <input type="button" value="8" onclick="store('8')"/> </td>
-                <td> <input type="button" value="9" onclick="store('9')"/> </td>
-                <td> <input type="button" value="+" onclick="store('+')"/> </td>
+                <td> <input type="button" class="button" value="7" onclick="store('7')"/> </td>
+                <td> <input type="button" class="button" value="8" onclick="store('8')"/> </td>
+                <td> <input type="button" class="button" value="9" onclick="store('9')"/> </td>
+                <td> <input type="button" class="button" value="+" onclick="store('+')"/> </td>
             </tr>
             <tr>
-                <td> <input type="button" value="." onclick="store('.')"/> </td>
-                <td> <input type="button" value="0" onclick="store('0')"/> </td>
-                <td> <input type="button" value="=" onclick="answer()"/> </td>
-                <td> <input type="button" value="*" onclick="store('*')"/> </td>
+                <td> <input type="button" class="button" value="." onclick="store('.')"/> </td>
+                <td> <input type="button" class="button" value="0" onclick="store('0')"/> </td>
+                <td> <input type="button" class="button" value="=" onclick="answer()"/> </td>
+                <td> <input type="button" class="button" value="*" onclick="store('*')"/> </td>
             </tr>
         </table>
         
